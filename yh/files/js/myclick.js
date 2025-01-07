@@ -4,13 +4,6 @@ let str = `
           <br>唯愿烟花像星辰 祝你所愿皆成真🧨
           <br>
           `;
-let s1 = `
-    <br>
-    岁未将至 平安喜乐 愿亲在 2024万事如意🧨
-    <br>
-    <br>唯愿烟花像星辰 祝你所愿皆成真🧨
-    <br>
-    `
 let wenan = [
   `<br>愿有人陪你颠沛流离，如果没有，
   <br><br>
@@ -88,19 +81,25 @@ function myRender() {
     <br>
     这个祝福，我只送给你。
     <br>
+
+    <br>
+    岁未将至 平安喜乐 愿亲在 2024万事如意🧨
+    <br>
+    <br>唯愿烟花像星辰 祝你所愿皆成真🧨
+    <br>
     `
-    str =  str + lvstr1 + lvstr2 + str1;
+    str =  str + lvstr1 + lvstr2;
   } 
-  // else {
-    // let s1 = `
-    // <br>
-    // 岁未将至 平安喜乐 愿亲在 2024万事如意🧨
-    // <br>
-    // <br>唯愿烟花像星辰 祝你所愿皆成真🧨
-    // <br>
-    // `
-  //   str += s1;
-  // }
+  else {
+    let s1 = `
+    <br>
+    岁未将至 平安喜乐 愿亲在 2024万事如意🧨
+    <br>
+    <br>唯愿烟花像星辰 祝你所愿皆成真🧨
+    <br>
+    `
+    str += s1;
+  }
 
           
   let ran = Math.floor(Math.random() * 5);//随机数
