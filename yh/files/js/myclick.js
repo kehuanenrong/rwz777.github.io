@@ -64,7 +64,7 @@ function myRender() {
   <br>
   <br>
   `
-  if (name === "王雪莹") {
+  if (name === "hjx") {
     let lvstr1 = `
     能收下吗？
     <br>
@@ -93,7 +93,7 @@ function myRender() {
     `
     str += s1;
   }
-  let ran = Math.floor(Math.random() * 6);//随机数
+  let ran = Math.floor(Math.random() * 5);//随机数
   let ss = wenan[ran];//随机文案
   str = ss + str;
   str = `${name}：<br>` + str;
