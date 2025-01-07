@@ -81,11 +81,6 @@ function myRender() {
     <br>
     这个祝福，我只送给你。
     <br>
-    <br>
-    岁未将至 平安喜乐 愿亲在 2024万事如意🧨
-    <br>
-    <br>唯愿烟花像星辰 祝你所愿皆成真🧨
-    <br>
     `
     str = str + lvstr1 + lvstr2;
   } else {
