@@ -1,6 +1,6 @@
 // 倒计时
 
-let inputTime = + new Date('2024-1-1 00:00:00');
+let inputTime = + new Date('2026-1-1 00:00:00');
 let day = document.querySelector('.day');
 let hour = document.querySelector('.hour');
 let minute = document.querySelector('.minute');
